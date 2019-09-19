@@ -5,7 +5,7 @@
 
 	<groupId>com.github.dblock</groupId>
 	<artifactId>oshi-parent</artifactId>
-	<version>3.3-SNAPSHOT</version>
+	<version>3.3-seven10-1</version>
 	<packaging>pom</packaging>
 
 	<name>Operating System and Hardware Information</name>
@@ -72,12 +72,12 @@
 		<snapshotRepository>
 			<id>nexus-seven10</id>
 			<name>Nexus Snapshot Repository</name>
-			<url>http://52.20.16.177:8081/nexus/content/repositories/snapshots/</url>
+			<url>http://nexus-master.seven10storage.com:8081/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
 		<repository>
-			<id>sonatype-nexus-staging</id>
+			<id>nexus-seven10</id>
 			<name>Nexus Release Repository</name>
-			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+			<url>http://nexus-master.seven10storage.com:8081/nexus/content/repositories/releases/</url>
 		</repository>
 	</distributionManagement>
 
